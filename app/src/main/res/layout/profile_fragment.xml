@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/black"
+            android:background="@color/colorAccent"
             tools:context=".MainActivity">
 
         <androidx.appcompat.widget.AppCompatImageView
@@ -17,7 +17,7 @@
                 android:layout_width="413dp"
                 android:layout_height="150dp"
                 android:src="@android:color/holo_blue_dark"
-                android:background="@android:color/background_dark"
+                android:background="@color/colorAccentLight"
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginStart="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
