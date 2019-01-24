@@ -37,5 +37,7 @@ class ProfileAdapter(context: Context): RecyclerView.Adapter<ProfileAdapter.MyVi
         var tvLike: AppCompatTextView = itemView.findViewById(R.id.tv_like)
         var tvComment: AppCompatTextView = itemView.findViewById(R.id.tv_comment)
 
+
+
     }
 }
