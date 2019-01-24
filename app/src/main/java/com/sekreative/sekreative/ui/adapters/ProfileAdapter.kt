@@ -8,7 +8,7 @@ import androidx.appcompat.widget.AppCompatImageView
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
 import com.sekreative.sekreative.R
-import de.hdodenhof.circleimageview.CircleImageView
+//import de.hdodenhof.circleimageview.CircleImageView
 
 class ProfileAdapter(context: Context): RecyclerView.Adapter<ProfileAdapter.MyViewHolder>() {
 
@@ -28,7 +28,7 @@ class ProfileAdapter(context: Context): RecyclerView.Adapter<ProfileAdapter.MyVi
 
     class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-        var ivUser: CircleImageView = itemView.findViewById(R.id.iv_circle_profile)
+     //   var ivUser: CircleImageView = itemView.findViewById(R.id.iv_circle_profile)
         var ivPost: AppCompatImageView = itemView.findViewById(R.id.iv_post)
         var ivLike: AppCompatImageView = itemView.findViewById(R.id.iv_like)
         var ivComment: AppCompatImageView = itemView.findViewById(R.id.iv_comment)
